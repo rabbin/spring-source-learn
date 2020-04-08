@@ -1,0 +1,5 @@
+# Project exclude paths
+/bean-life/target/
+.idea
+spring-source-learn.iml
+*/target
