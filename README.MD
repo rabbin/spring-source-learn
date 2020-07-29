@@ -1,6 +1,6 @@
 # Spring源码学习
 ## [bean 声明周期](bean-life/src/main/java/com/rabbin/beanlife)
-![](bean-life//doc/bean生命周期.png)
+![](bean-life/doc/bean生命周期.png)
 
 ### 源码参考：  
 AbstractAutowireCapableBeanFactory  
