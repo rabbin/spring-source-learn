@@ -1,4 +1,4 @@
-package com.rabbin.beanlife;
+package com.rabbin.ioc.beanlife;
 
 public class BeanProperty {
     private String string;

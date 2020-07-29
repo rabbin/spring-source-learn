@@ -1,4 +1,4 @@
-package com.rabbin.beanlife;
+package com.rabbin.ioc.beanlife;
 
 import org.springframework.stereotype.Component;
 

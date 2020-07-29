@@ -6,12 +6,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.1.xsd">
     <!-- 通过构造方法配置bean的属性 -->
-    <bean id="beanLife" class="com.rabbin.beanlife.BeanLife" init-method="init" destroy-method="cleanUp">
+    <bean id="beanLife" class="com.rabbin.ioc.beanlife.BeanLife" init-method="init" destroy-method="cleanUp">
         <constructor-arg name="beanProperty" ref="beanProperty"/>
         <property name="beanPropertySet" ref="beanPropertySet"/>
     </bean>
-    <bean id="beanProperty" class="com.rabbin.beanlife.BeanProperty"/>
-    <bean id="myBeanPostProcessor" class="com.rabbin.beanlife.MyBeanPostProcessor"/>
-    <bean id="beanPropertySet"  class="com.rabbin.beanlife.BeanPropertySet"/>
-    <bean id="myInstantiationAwareBeanPostProcessor"  class="com.rabbin.beanlife.MyInstantiationAwareBeanPostProcessor"/>
+    <bean id="beanProperty" class="com.rabbin.ioc.beanlife.BeanProperty"/>
+    <bean id="myBeanPostProcessor" class="com.rabbin.ioc.beanlife.MyBeanPostProcessor"/>
+    <bean id="beanPropertySet"  class="com.rabbin.ioc.beanlife.BeanPropertySet"/>
+    <bean id="myInstantiationAwareBeanPostProcessor"  class="com.rabbin.ioc.beanlife.MyInstantiationAwareBeanPostProcessor"/>
 </beans>

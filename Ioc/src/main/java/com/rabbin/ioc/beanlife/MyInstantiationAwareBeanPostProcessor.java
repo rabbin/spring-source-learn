@@ -1,4 +1,4 @@
-package com.rabbin.beanlife;
+package com.rabbin.ioc.beanlife;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor;
