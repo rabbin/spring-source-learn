@@ -5,8 +5,7 @@
 ### 源码参考：  
 AbstractAutowireCapableBeanFactory  
 InstantiationAwareBeanPostProcessor  
-CommonAnnotationBeanPostProcessor  
-InitDestroyAnnotationBeanPostProcessor  
+CommonAnnotationBeanPostProcessor  p
 DisposableBeanAdapter  
 ### 参考文档：  
 [请别再问Spring Bean的生命周期了！](https://www.jianshu.com/p/1dec08d290c1)  
